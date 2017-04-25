@@ -8,7 +8,7 @@ import time
 import random
 
 #链接 mysql 数据库
-conn = pymysql.connect(host="127.0.0.1",port=3306,user="root",passwd="root",db="kakamaifang",charset="utf8")
+conn = pymysql.connect(host="127.0.0.1",port=3306,user="root",passwd="Pa88word",db="kakamaifang",charset="utf8")
 cur = conn.cursor()
 
 #定义url 要爬的链接和商圈名
